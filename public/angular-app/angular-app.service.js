@@ -6,7 +6,7 @@ function apiDataService($http) {
   };
 
   function apiDataList() {
-    return $http.get("http://localhost:9999/api/data").then(complete).catch(failed);
+    return $http.get("https://murmuring-island-61109.herokuapp.com/api/data").then(complete).catch(failed);
   }
 
   function complete(response) {
