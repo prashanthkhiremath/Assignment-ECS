@@ -10,5 +10,6 @@ angular.module('myApp')
 
         apiDataService.apiDataList().then(function(response){
             $scope.myData = response;
+            console.log(response);
         });
     };
